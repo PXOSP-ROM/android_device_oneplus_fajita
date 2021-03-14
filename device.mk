@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.oneplus
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus6TWifiOverlay
+
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
